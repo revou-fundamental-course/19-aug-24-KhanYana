@@ -1,0 +1,46 @@
+/* Ini CSS */
+.container {
+    border: 5px solid white;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.container > div{
+    padding: 10px 20px 10px 20px;
+    text-align: center;
+    font-size: 40sp;
+    font-family: arial;
+    color: rgb(62, 55, 55);
+    border: 1px solid black;
+    background-color: white;
+}
+
+.logo {
+    margin-right: auto;
+}
+
+.home {
+    img src =
+}
+
+.blank {
+    width: 1366px;
+    height: 578px;
+}
+
+.facilitation {
+    font-family: arial;
+    margin: 30px 100px 30px 100px;
+}
+
+.facilitation > div{
+    width: 150px;
+    height: 150px;
+    border: 1px solid black;
+    border-radius: 50%;
+}
+
+.form {
+    font-family: arial;
+    margin: 30px 100px 30px 100px;
+}
