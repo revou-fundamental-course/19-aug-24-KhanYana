@@ -2,12 +2,13 @@ nav {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    background-color: #026E00;
 }
 
 .logo-icon {
     height: 48px;
     width: 48px;
-    background-image: url(https://media.licdn.com/dms/image/v2/D4D0BAQHamEZ1VJxYJg/company-logo_200_200/company-logo_200_200/0/1667021628345/smkn18jkt_logo?e=2147483647&v=beta&t=Wred2TlKDn11PY2bVVIhlN9JLW1oLQOy-3_IGzydg9k);
+    background-image:"logo.png";
     background-size: cover;
     border-radius: 50%;
 }
@@ -15,6 +16,7 @@ nav {
 .nav-item {
     border: 1px solid;
     color: black;
+    background-color: #FFF2AA;
     text-decoration: none;
     font-size: 16px;
     font-weight: bold;
@@ -30,15 +32,40 @@ nav {
     background-position: center;
 }
 
+.info-container {
+    display: flex;
+}
+
+.center {
+    text-align: center;
+}
+
+.info-box {
+    background-color: #FFF2AA;
+    width: 850px;
+    border: 1px solid;
+    padding: 8px;
+    border-radius: 8px;
+    margin: 8px
+}
+
 .profile-container {
     display: flex;
     justify-content: space-around;
+    height: 300px;
+    width: 700px;
+
 }
 
 .profile-item {
+    width: 150px;
     height: 150px;
     text-align: -webkit-center;
+    padding: 8px;
+    border-radius: 8px;
+    margin: 8px;
 }
+
 
 .profile-img {
     height: 150px;
@@ -47,4 +74,12 @@ nav {
     background-position: center;
     border-radius: 50%;
     width: 150px;
+}
+
+#kur {
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSJ1bspWj04GbnagXcVlVgBlLbFDHfYM5Lp2YExOdG0KpnuYRoMiDY1lxvfh_1xZJR1_tg&usqp=CAU);
+}
+
+#ian {
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS_OGL1KqxVLV1DRK2nePchG84ABRL2cc8nWYXOOb8flg79psPS2YrTHNgf7qZde2hYJg&usqp=CAU);
 }
