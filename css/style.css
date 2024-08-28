@@ -2,26 +2,37 @@ nav {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background-color: #026E00;
+    background-color: black;
+    height: 60px;
+}
+
+.school-name {
+    color: greenyellow;
+    font-family: sans-serif;
 }
 
 .logo-icon {
     height: 48px;
     width: 48px;
-    background-image:"logo.png";
+    background-image: url(../logo.png);
     background-size: cover;
     border-radius: 50%;
+    margin-left: 8px;
 }
 
 .nav-item {
     border: 1px solid;
-    color: black;
-    background-color: #FFF2AA;
+    color: white;
     text-decoration: none;
     font-size: 16px;
     font-weight: bold;
     padding: 8px;
     border-radius: 8px;
+    margin-right: 8px;
+}
+
+.nav-container>a:hover {
+    color: greenyellow;
 }
 
 .banner-img {
@@ -38,15 +49,17 @@ nav {
 
 .center {
     text-align: center;
+    
 }
 
 .info-box {
     background-color: #FFF2AA;
     width: 850px;
+    height: 140px;
     border: 1px solid;
     padding: 8px;
     border-radius: 8px;
-    margin: 8px
+    margin: 5px
 }
 
 .profile-container {
@@ -82,4 +95,17 @@ nav {
 
 #ian {
     background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS_OGL1KqxVLV1DRK2nePchG84ABRL2cc8nWYXOOb8flg79psPS2YrTHNgf7qZde2hYJg&usqp=CAU);
+}
+
+.message-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.message-item {
+    width: 550px;
+    height: 220px;
+    border: 1px solid;
+    padding: 10px;
+    margin: 10px;
 }
