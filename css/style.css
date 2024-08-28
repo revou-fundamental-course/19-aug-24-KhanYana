@@ -62,6 +62,13 @@ nav {
     margin: 5px
 }
 
+.all-title {
+    padding: 5px;
+    background-color: yellowgreen;
+    padding-left: 10px;
+    border-radius: 8px;
+}
+
 .profile-container {
     display: flex;
     justify-content: space-around;
@@ -95,6 +102,24 @@ nav {
 
 #ian {
     background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS_OGL1KqxVLV1DRK2nePchG84ABRL2cc8nWYXOOb8flg79psPS2YrTHNgf7qZde2hYJg&usqp=CAU);
+}
+
+.vm {
+    height: 340px;
+}
+
+.vm-box {
+    border: 1px solid;
+    height: 250px;
+    width: 685px;
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 8px;
+}
+
+.vm-title {
+    margin : 12px
 }
 
 .message-container {
