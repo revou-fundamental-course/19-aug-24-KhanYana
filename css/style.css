@@ -4,6 +4,8 @@ nav {
     justify-content: space-between;
     background-color: black;
     height: 60px;
+    position: sticky;
+    top: 0;
 }
 
 .school-name {
@@ -133,4 +135,5 @@ nav {
     border: 1px solid;
     padding: 10px;
     margin: 10px;
+    border-radius: 8px;
 }
