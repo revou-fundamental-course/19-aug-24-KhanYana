@@ -352,6 +352,7 @@ article {
         #vm-text {
             border: 1px solid;
             width: 282px;
+            height: 200px;
         }
         
         #vm-logo {
