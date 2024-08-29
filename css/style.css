@@ -37,13 +37,27 @@ nav {
     color: greenyellow;
 }
 
+article {
+    height: 690px;
+}
+
+.button-slide{
+    display: flex;
+    align-items: center;
+    margin-left: 250px;
+    margin-top: 15px;
+}
+
 .banner-img {
-    border: 1px solid;
-    height: 300px;
-    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRAAG02k9uomeIqLlL37tXK8blgKyF_8umwOw&s);
+    height: 337px;
+    width: 600px;    
     background-size: cover;
     background-position: center;
-}
+    padding: 30px;
+    padding-left: 320px;
+    padding-right: 320px;
+    padding-bottom: 50px;
+    background-color: darkslategrey;}
 
 .info-container {
     display: flex;
