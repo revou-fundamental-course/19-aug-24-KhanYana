@@ -189,17 +189,36 @@ article {
     border-radius: 8px;
 }
 
+.box-pesan { 
+    -ms-grid-row-span: 8;
+    column-span: 64;
+}
+
 .submit-button {
     width: 300px;
     margin-left: 243px;
 }
 
+.dt {
+    margin-bottom: 8px;
+    margin-top: 10px;
+}
+
+.khan {
+    display: flex;
+    justify-content: flex-end;
+    background-color: black;
+    padding: 10px;
+    color: greenyellow;
+    font-family: monospace;
+}
+
 @media only screen and (max-width:600px) {
+    body {
+        width: 305px;
+    }
+
     nav {
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
-        background-color: black;
         height: 100px;
         position: sticky;
         top: 0;
@@ -296,11 +315,61 @@ article {
         }
 
         .vm {
-            height: 313px;
+            height: 433px;
         }
+        
+        .vm-container{
+            display: block;
+        }
+
+        .vm-box {
+            padding: 8px;
+            height: 198px;
+            border: 1px solid;
+            width: 260px;
+            font-size: 10px;
+        }
+
         #vm-text {
             border: 1px solid;
-            width: 685px;
-            font-size: 10px;
+            width: 282px;
+        }
+        
+        #vm-logo {
+            background-image: url(https://www.bprtrikarya.co.id/uploads/pagecontent/911visi%20dan%20misi.png);
+            background-size: cover;
+            height: 147px;
+            width: 218px;
+            border: 0px;
+            margin-left: 30px;
+            margin-top: 5px;
+        }
+
+
+
+
+        .message-container {
+            display: block;
+        }
+        
+        .message-item {
+            width: 265px;
+            height: 220px;
+            border: 1px solid;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 8px;
+            font-size: 12px;
+        }
+        
+        .box-pesan { 
+            -ms-grid-row-span: 8;
+            column-span: 64;
+        }
+        
+        .submit-button {
+            width: 258px;
+            margin-left: 3px;
+            argin-top: 71px;
         }
 }

@@ -1,5 +1,10 @@
 
-
+// MASUKIN NAMA
+function replaceName () {
+    let name = prompt ("Hi!, Whats your name?", "")
+    document.getElementById("name-enter").innerHTML = name
+    }
+replaceName ();
 
 // AUTOSLIDE
 var slideIndex = 1;
@@ -44,3 +49,7 @@ function validateForm() {
     document.getElementById("sender-message").innerHTML = message;
     return false
 }
+
+// LIVE TIME
+var dt = new Date ();
+document.getElementById("date-time").innerHTML=dt;

@@ -2,6 +2,7 @@
 <html>
     <head>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="shortcut icon" type="x-icon" href="../images/logo-web.png">
         <title>SMKN 18 JAKARTA</title>
         <link rel="stylesheet" href="css\style.css">
     </head>
@@ -23,7 +24,7 @@
         <main>
             <article id="home">
                 <header>
-                    <h1>Hi <span id="name-enter">Liko</span>,</h1>
+                    <h1>Hi <span id="name-enter">-</span>,</h1>
                     <h1>Welcome to the Website</h1>
                 </header>
 
@@ -177,12 +178,15 @@
                     <br>
 
                     Pesan :
-                    <textarea rows="8" cols="64" placeholder="Masukan Pesan" name="message"></textarea>
+                    <textarea class="box-pesan" placeholder="Masukan Pesan" name="message"></textarea>
                     <br>
                         <input class="submit-button" type="submit" value="submit"/>
                         </form>
 
                     <div class="message-item">
+                    <p class="dt">Current Date & Time : </p>
+                    <span id="date-time"></span>
+
                     <p>Nama : <span id="sender-name">-</span></p>
                     <p>Tanggal Lahir : <span id="sender-birth-date">-</span></p>
                     <p>Jenis Kelamin : <span id="sender-gender">-</span></p>
@@ -192,10 +196,10 @@
             </section>
         </main>
         
-        <hr>
+        
         
         <footer>
-            <p>Made by Khansa Dayana</p>
+            <p class="khan">Made by Khansa Dayana</p>
         </footer>
         
         <script src="js\script.js"></script>
