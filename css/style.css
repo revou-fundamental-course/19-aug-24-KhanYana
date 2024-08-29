@@ -45,7 +45,7 @@ nav {
 }
 
 article {
-    height: 690px;
+    height: 740px;
 }
 
 .button-slide{
@@ -187,6 +187,11 @@ article {
     padding: 10px;
     margin: 10px;
     border-radius: 8px;
+}
+
+.submit-button {
+    width: 300px;
+    margin-left: 243px;
 }
 
 @media only screen and (max-width:600px) {
