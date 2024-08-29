@@ -64,7 +64,9 @@ article {
     padding-left: 320px;
     padding-right: 320px;
     padding-bottom: 50px;
-    background-color: darkslategrey;}
+    background-color: darkslategrey;
+    border-radius: 10px;
+}
 
 .info-container {
     display: flex;
@@ -190,13 +192,14 @@ article {
 }
 
 .box-pesan { 
-    -ms-grid-row-span: 8;
-    column-span: 64;
+    height: 88px;
+    width: 536px;
 }
 
 .submit-button {
     width: 300px;
     margin-left: 243px;
+    margin-top: 13px;
 }
 
 .dt {
@@ -363,13 +366,13 @@ article {
         }
         
         .box-pesan { 
-            -ms-grid-row-span: 8;
-            column-span: 64;
+            height: 86px;
+            width: 258px;
         }
         
         .submit-button {
             width: 258px;
             margin-left: 3px;
-            margin-top: 71px;
+            margin-top: 19px;
         }
 }
