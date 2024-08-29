@@ -109,6 +109,8 @@ article {
     padding: 8px;
     border-radius: 8px;
     margin: 6px;
+    margin-left: 20px;
+    margin-right: 20px;
 }
 
 
@@ -139,10 +141,6 @@ article {
 
 #oya {
     background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS8aT_ZN_r9RYMBE4FYv6tWBamp-UqvokI1OQMJ5UNGjlAXPaeBETzDdmsRq_16-M0wHQ&usqp=CAU);
-}
-
-#zel {
-    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSCSspZVfoAqBSb9e2rVJGLIX3oV2UdVBYbR2WMicREHM0N_JLCVfrTiqa7ENMPlY36tA&usqp=CAU);
 }
 
 .vm {
@@ -257,7 +255,7 @@ article {
 
         .banner-img {
             height: 160px;
-            width: 252px;
+            width: 246px;
             background-size: cover;
             background-position: center;
             padding: 30px;
@@ -266,7 +264,7 @@ article {
 
         .img-slideshow {
             height: 150px;
-            width: 250px
+            width: 246px
         }
 
         .button-slide {
@@ -304,17 +302,36 @@ article {
             font-size: 10px;
         }
 
-        .profile-img {
+        .profile-container {
+            display: flex;
+            height: 355px;
+            width: 360px;
+            flex-wrap: wrap;
+            justify-content: flex-start;
+            margin-left: 33px;
+            align-items: center;
+        }
+
+        .profile-item {
+            width: 122px;
             height: 100px;
+            text-align: -webkit-center;
+            padding: 0px; 
+            border-radius: 8px;
+            margin: 0px;
+        }
+
+        .profile-img {
+            height: 80px;
             background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS53sHAd1kjccha49a6WuTEBjQNkkTLkr2SaA&s);
             background-size: cover;
             background-position: center;
             border-radius: 50%;
-            width: 100px;
+            width: 80px;
         }
 
         .teacher-title {
-            font-size: 20px;
+            font-size: 10px;
         }
 
         .vm {
