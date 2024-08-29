@@ -1,16 +1,16 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>SMKN 18 JAKARTA</title>
         <link rel="stylesheet" href="css\style.css">
     </head>
     <body>
         <nav>
-            <header>
+            <header class="icon">
                 <div class="logo-icon"></div>
-            </header>
-
             <h1 class="school-name">SMKN 18 JAKARTA</h1>
+            </header>
 
             <section class="nav-container">
                 <a href="#home" class="nav-item">Home</a>
@@ -23,7 +23,8 @@
         <main>
             <article id="home">
                 <header>
-                    <h1>Hi <span id="name">Liko</span>,Welcome to the Website </h1>
+                    <h1>Hi <span id="name">Liko</span>,</h1>
+                    <h1>Welcome to the Website</h1>
                 </header>
 
                 <p>Hello, This is my First Project of making Website using HTML, CSS, and JavaScript :D</p>
@@ -100,33 +101,57 @@
                 <section class="profile-container">
                     <div class="profile-item">
                         <div class="profile-img"></div>
-                        <h2>Physical Education Teacher</h2>
+                        <h2 class="teacher-title">School Principal</h2>
+                    </div>
+
+                    <div class="profile-item">
+                        <div class="profile-img" id="ist"></div>
+                        <h2 class="teacher-title">Vise School Principal</h2>
+                    </div>
+                    
+                    <div class="profile-item">
+                        <div class="profile-img" id="sup"></div>
+                        <h2 class="teacher-title">Physical Education Teacher</h2>
                     </div>
 
                     <div class="profile-item">
                         <div class="profile-img" id="kur"></div>
-                        <h2>Guidance and Counseling Teacher</h2>
+                        <h2 class="teacher-title">Guidance and Counseling Teacher</h2>
                     </div>
 
                     <div class="profile-item">
                         <div class="profile-img" id="ian"></div>
-                        <h2>Math Teacher</h2>
+                        <h2 class="teacher-title">Math Teacher</h2>
+                    </div>
+
+                    <div class="profile-item">
+                        <div class="profile-img" id="oya"></div>
+                        <h2 class="teacher-title">Marketing Teacher</h2>
+                    </div>
+
+                    <div class="profile-item">
+                        <div class="profile-img" id="zel"></div>
+                        <h2 class="teacher-title">Accounting Teacher</h2>
                     </div>
                 </section>
             </section>
             <hr>
             <section class="vm" id="visi-misi">
                 <h2 class="all-title">Vision & Mission</h2>
-
-                <div class="vm-box">
-                    <h3 class="vm-title">VISION</h3>
-                    <p>Menjadi sekolah yang berkarakter, mandiri, unggul, dan berbudaya lingkungan</p>
-                    <h3 class="vm-title">MISSION</h3>
-                    <li>Meningkatkan penghayatan dan pengamalan terhadap ajaran agama serta melestarikan nilai-nilai luhur bangsa.</li>
-                    <li>Menerapkan Keterbukaan Pengelolaan Keuangan, Kemitraan, Kewirausahaan dan Pelayanan Prima.</li>
-                    <li>Meningkatkan kuantitas dan kualitas sarana prasarana untuk menunjang proses pembelajaran berbasis Teknologi dan Informasi.</li>
-                    <li>Menanamkan sikap kepedulian terhadap lingkungan melalui penerapan Wawasan Wiyata Mandala dan Adiwiyata.</li>
-                </div>
+                <section class="vm-container">
+                    <div class="vm-box" id="vm-text">
+                        <h3 class="vm-title">VISION</h3>
+                        <p>Menjadi sekolah yang berkarakter, mandiri, unggul, dan berbudaya lingkungan</p>
+                        <h3 class="vm-title">MISSION</h3>
+                        <li>Meningkatkan penghayatan dan pengamalan terhadap ajaran agama serta melestarikan nilai-nilai luhur bangsa.</li>
+                        <li>Menerapkan Keterbukaan Pengelolaan Keuangan, Kemitraan, Kewirausahaan dan Pelayanan Prima.</li>
+                        <li>Meningkatkan kuantitas dan kualitas sarana prasarana untuk menunjang proses pembelajaran berbasis Teknologi dan Informasi.</li>
+                        <li>Menanamkan sikap kepedulian terhadap lingkungan melalui penerapan Wawasan Wiyata Mandala dan Adiwiyata.</li>
+                    </div>
+                    
+                    <div class="vm-box" id="vm-logo">
+                    </div>
+                </section>
             </section>
             <hr>
             <section id="message-us">
@@ -147,14 +172,15 @@
                             <label for="laki">Laki-laki</label>
                          <input type="radio" id="perempuan" name="fav_language" value="Perempuan"
                             <label for="perempuan">Perempuan</label>
-                     <br>
+                        <br>
                          <label for="pesan">Pesan</label>
-                            <textarea rows="8" cols="64">Pesan</textarea>
-                      <br>
-                     <input type="submit" value="submit"/>
-                    </form>
+                            <textarea rows="8" cols="64" placeholder="Ketik pesan anda"></textarea>
+                        <br>
+                        <input type="submit" value="submit"/>
+                        </form>
 
                     <div class="message-item">
+
                     </div>
                 </section>
             </section>
