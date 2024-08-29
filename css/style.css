@@ -1,3 +1,4 @@
+/* Ini CSS */
 
 nav {
     display: flex;
@@ -45,7 +46,7 @@ nav {
 }
 
 article {
-    height: 740px;
+    height: 700px;
 }
 
 .button-slide{
@@ -74,7 +75,6 @@ article {
 
 .center {
     text-align: center;
-    
 }
 
 .info-box {
@@ -99,7 +99,6 @@ article {
     justify-content: space-around;
     height: 280px;
     width: 700px;
-
 }
 
 .profile-item {
@@ -250,7 +249,7 @@ article {
             display: flex;
         }
         article {
-            height: 760px;
+            height: 775px;
         }
 
         .banner-img {
@@ -364,9 +363,6 @@ article {
             margin-left: 30px;
             margin-top: 5px;
         }
-
-
-
 
         .message-container {
             display: block;

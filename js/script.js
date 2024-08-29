@@ -1,3 +1,4 @@
+// Ini JavaScript
 
 // MASUKIN NAMA
 function replaceName () {
